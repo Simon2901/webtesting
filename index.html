@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/p5.js"></script>
+    <script src="scripts/cube.js"></script>
     <title>hehehe</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,14 +21,15 @@
             </div>
         </div>
         <div id="window-body">
-            <h1 class="typewiter">Hello World.</h1>
+            <!-- <h1>Hello World.</h1> -->
+            <div id="sketch-holder"></div>
         </div>
     </div>
 
     <!-- JQuery Shinanigans -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="scripts/jquery-3.6.0.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
     <script>
         $(function() {
             $("#window").draggable({
